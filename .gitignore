@@ -19,7 +19,10 @@ env/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
+# Airflow logs and runtime files
+airflow/logs/
+*.log
+
 # OS files
 .DS_Store
 Thumbs.db
-

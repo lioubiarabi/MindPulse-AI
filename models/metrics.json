@@ -1,0 +1,64 @@
+{
+  "model_type": "LogisticRegression",
+  "accuracy": 0.77,
+  "precision_macro": 0.7715,
+  "recall_macro": 0.7692,
+  "f1_macro": 0.7701,
+  "target_names": [
+    "Low",
+    "Medium",
+    "High"
+  ],
+  "confusion_matrix": [
+    [
+      104,
+      28,
+      0
+    ],
+    [
+      21,
+      89,
+      22
+    ],
+    [
+      1,
+      20,
+      115
+    ]
+  ],
+  "classification_report": {
+    "Low": {
+      "precision": 0.8253968253968254,
+      "recall": 0.7878787878787878,
+      "f1-score": 0.8062015503875969,
+      "support": 132.0
+    },
+    "Medium": {
+      "precision": 0.6496350364963503,
+      "recall": 0.6742424242424242,
+      "f1-score": 0.6617100371747212,
+      "support": 132.0
+    },
+    "High": {
+      "precision": 0.8394160583941606,
+      "recall": 0.8455882352941176,
+      "f1-score": 0.8424908424908425,
+      "support": 136.0
+    },
+    "accuracy": 0.77,
+    "macro avg": {
+      "precision": 0.7714826400957788,
+      "recall": 0.7692364824717766,
+      "f1-score": 0.7701341433510535,
+      "support": 400.0
+    },
+    "weighted avg": {
+      "precision": 0.7721619742787627,
+      "recall": 0.77,
+      "f1-score": 0.7708577103424514,
+      "support": 400.0
+    }
+  },
+  "passed_threshold": true,
+  "min_f1_threshold": 0.7
+}
